@@ -16,12 +16,11 @@ const dataSchema = new mongoose.Schema({
     author: String,
     title: String,
     journal: String,
-    year: String,
+    date: Date,
     eprint: String,
     eprinttype: String,
     eprintclass: String,
     pages: String,
-    month: String,
     annote: String,
 })
 
